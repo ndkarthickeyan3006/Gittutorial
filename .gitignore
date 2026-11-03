@@ -1,0 +1,76 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Python testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+
+# Type checking and linting
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.pytype/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Flask
+instance/
+
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Temporary files
+*.tmp
+*.bak
